@@ -9,6 +9,9 @@
 
     <ImageView
         android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?selectableItemBackground"
         android:layout_centerInParent="true"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
