@@ -32,5 +32,15 @@
 
         <include layout="@layout/with_framelayout" />
 
+        <!-- With `tint` and `tintMode` -->
+
+        <TextView
+            style="@style/Heading"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="With `tint` and `tintMode`" />
+
+        <include layout="@layout/with_tint" />
+
     </LinearLayout>
 </ScrollView>
