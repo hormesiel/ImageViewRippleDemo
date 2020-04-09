@@ -22,5 +22,15 @@
 
         <include layout="@layout/with_foreground" />
 
+        <!-- With a <FrameLayout> -->
+
+        <TextView
+            style="@style/Heading"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="With a &lt;FrameLayout&gt;" />
+
+        <include layout="@layout/with_framelayout" />
+
     </LinearLayout>
 </ScrollView>
