@@ -3,5 +3,5 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:color="?colorControlHighlight">
 
-    <item android:drawable="@drawable/tutorial_card_image" />
+    <item android:drawable="@drawable/card" />
 </ripple>
